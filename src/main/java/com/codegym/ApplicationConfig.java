@@ -2,7 +2,7 @@ package com.codegym;
 
 
 import com.codegym.repository.ArticleRepository;
-import com.codegym.repository.ArticleRepsitoryImpl;
+import com.codegym.repository.ArticleRepositoryImpl;
 import com.codegym.service.ArticleService;
 import com.codegym.service.ArticleServiceImpl;
 import org.springframework.beans.BeansException;
@@ -47,11 +47,11 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
 
     @Bean
     public ArticleRepository articleRepository(){
-        return new ArticleRepsitoryImpl();
+        return new ArticleRepositoryImpl();
     }
 
     @Bean
-    public ArticleService customerService(){
+    public ArticleService articleService(){
         return new ArticleServiceImpl();
    }
 
@@ -61,7 +61,7 @@ public class ApplicationConfig extends WebMvcConfigurerAdapter implements Applic
     public SpringResourceTemplateResolver templateResolver(){
         SpringResourceTemplateResolver templateResolver = new SpringResourceTemplateResolver();
         templateResolver.setApplicationContext(applicationContext);
-        templateResolver.setPrefix("/WEB-INF/views/");
+        templateResolver.setPrefix("/WEB-INF/views");
         templateResolver.setSuffix(".html");
         templateResolver.setTemplateMode(TemplateMode.HTML);
         return templateResolver;

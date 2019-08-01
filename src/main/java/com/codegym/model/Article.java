@@ -13,10 +13,10 @@ public class Article {
     private Long id;
     private String title;
     private String writer;
-
+    private String content;
     @DateTimeFormat(pattern = "dd/MM/yyyy")
     private Date date;
-    private String content;
+
 
     public Article() {
     }
@@ -26,6 +26,11 @@ public class Article {
         this.writer = writer;
         this.date = date;
         this.content = content;
+    }
+
+    @Override
+    public String toString(){
+        return String.format("article[id=%d, title='%s', writer='%s', content='%s', date='%s', content='$s']", id, title,writer, date, content );
     }
 
     public Long getId() {

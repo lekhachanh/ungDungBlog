@@ -6,26 +6,26 @@ import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.List;
 
-public class ArticleServiceImpl implements ArticleService<Article>{
+public class ArticleServiceImpl implements ArticleService{
     @Autowired
-    private ArticleRepository<Article> articleArticleRepository;
+    private ArticleRepository<Article> articleRepository;
     @Override
     public List<Article> findAll() {
-        return articleArticleRepository.findAll();
+        return articleRepository.findAll();
     }
 
     @Override
     public Article findById(Long id) {
-        return articleArticleRepository.findById(id);
+        return articleRepository.findById(id);
     }
 
     @Override
     public void save(Article article) {
-        articleArticleRepository.save(article);
+        articleRepository.save(article);
     }
 
     @Override
     public void remove(Long id) {
-        articleArticleRepository.remove(id);
+        articleRepository.remove(id);
     }
 }
