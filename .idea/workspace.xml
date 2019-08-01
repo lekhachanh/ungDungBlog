@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d3b7c2b-526f-4d9f-a688-22b5be9cfc16" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/delete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
@@ -11,34 +10,11 @@
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/ApplicationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/model/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/repository/ArticleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/repository/ArticleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/repository/ArticleRepsitoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/ApplicationConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/ApplicationConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/controller/ArticleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/controller/ArticleController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/model/Article.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/model/Article.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/repository/ArticleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/repository/ArticleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/repository/ArticleRepsitoryImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/service/ArticleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/service/ArticleService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/service/ArticleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/classes/com/codegym/service/ArticleServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/views/article/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/views/article/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/views/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/exploded/ungDungBlog-1.0-SNAPSHOT.war/WEB-INF/views/article/view.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/libs/ungDungBlog-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/ungDungBlog-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/ArticleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Article.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Article.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/ArticleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/ArticleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/ArticleRepsitoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/ArticleRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/ArticleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/ArticleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/view.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/article/view.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +86,9 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectId" id="1OlroP6VpCwicqlzwkKVqL7kG58" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -301,7 +279,7 @@
       <workItem from="1564579509131" duration="1415000" />
       <workItem from="1564581039440" duration="5370000" />
       <workItem from="1564586783409" duration="2226000" />
-      <workItem from="1564620615100" duration="277000" />
+      <workItem from="1564620615100" duration="3116000" />
     </task>
     <servers />
   </component>

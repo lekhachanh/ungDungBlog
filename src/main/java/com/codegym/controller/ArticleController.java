@@ -59,4 +59,25 @@ public class ArticleController {
         modelAndView.addObject("message", "update article successfully");
         return modelAndView;
     }
+
+    @GetMapping("/delete/{id}")
+    public ModelAndView showDeleteForm(@PathVariable Long id){
+        Article article = articleService.findById(id);
+        if (article != null) {
+            ModelAndView modelAndView = new ModelAndView("/article/delete");
+            modelAndView.addObject("article", article);
+            return modelAndView;
+        }else {
+            ModelAndView modelAndView = new ModelAndView("/error.404");
+            return modelAndView;
+        }
+    }
+
+    @PostMapping("/remove")
+    public ModelAndView removeArticle(@ModelAttribute("article") Article article){
+        articleService.remove(article.getId());
+        ModelAndView modelAndView = new ModelAndView("/article/delete");
+        modelAndView.addObject("message", "delete article successfully");
+        return modelAndView;
+    }
 }
